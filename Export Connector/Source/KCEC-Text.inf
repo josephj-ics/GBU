@@ -1,0 +1,18 @@
+[Scripts]
+Ascent Capture Text
+
+[Ascent Capture Text]
+SetupModule=Kofax.TextRelease.dll
+SetupProgID=TextRel.kfxreleasesetupscript
+SetupVersion=1.0.0
+ReleaseModule=Kofax.TextRelease.dll
+ReleaseProgID=TextRel.kfxreleasescript
+ReleaseVersion=1.0.0
+SupportsNonImageFiles=True
+SupportsKofaxPDF=True
+RemainLoaded=True
+SupportsOriginalFileName=True
+DisplayName=Text Export Connector
+
+
+

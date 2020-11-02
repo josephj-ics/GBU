@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="IndexValueButtonImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIVJREFUWEftlFEK
+        wCAMQ73/pZ2T9Webiw0BwaXQL2sbX9RSHCZgAiaACdRWwibuPlFxDmeC3feYxTZi9w0FfNnwRkguIGuD
+        UkBtzbLZL64kruGzLyGEygUsJUCRVFrQBaDP6K5SLiCLYT8ByIJYD1L7EVh+B5AFe78CdPrRetY215vA
+        DwkcmECiXhuaeXQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ERR_CONSTANT_TEXT_MAX_LENGTH" xml:space="preserve">
+    <value>A constant text in file name format must have a length less than 128 characters.</value>
+  </data>
+  <data name="ERR_FILE_NAME_CONTAINS_SPECIAL_CHARS" xml:space="preserve">
+    <value>A file name cannot contain any of following characters: / \ : * ? " &lt; &gt; |</value>
+  </data>
+  <data name="MSG_BLANK_INDEX_VALUES_NOT_ALLOWED" xml:space="preserve">
+    <value>Blank Values are not allowed.</value>
+  </data>
+  <data name="MSG_DELETE_ALL_VALUES" xml:space="preserve">
+    <value>Are you sure you want to delete all Values?</value>
+  </data>
+  <data name="MSG_DELETE_VALUE" xml:space="preserve">
+    <value>Are you sure you want to delete this Value?</value>
+  </data>
+  <data name="MSG_ERROR_INDEX_NAMING" xml:space="preserve">
+    <value>The Index Naming option was selected, but the Index Name field value was not selected.</value>
+  </data>
+  <data name="MSG_FILE_NAME_REQUIRED" xml:space="preserve">
+    <value>No file name was specified</value>
+  </data>
+  <data name="MSG_NO_INDEX_VALUES" xml:space="preserve">
+    <value>No Values have been defined but Index Fields and Batch Fields are available.  Released documents will have no index data available.</value>
+  </data>
+  <data name="MSG_NOT_ALL_BATCH_FIELDS_USED" xml:space="preserve">
+    <value>The following Batch Fields were not used.{0}</value>
+  </data>
+  <data name="MSG_NOT_ALL_INDEX_FIELDS_USED" xml:space="preserve">
+    <value>The following Index Fields were not used.{0}</value>
+  </data>
+  <data name="MSG_ORIGINAL_FILE_NAME_CONFLICT" xml:space="preserve">
+    <value>You have chosen the 'Use Original File Name' option and there are conflicting Text Release script options currently selected. OCR/PDF files must be released to separate directories and/or the standard file naming option must be selected.</value>
+  </data>
+  <data name="MSG_PDF_PUBLISH_FAILED" xml:space="preserve">
+    <value>The PDF 2.01 image format is not supported.
+Please run release setup to choose a different image format.</value>
+  </data>
+  <data name="MSG_SAVE_SETTING" xml:space="preserve">
+    <value>Do you wish to save the current settings?</value>
+  </data>
+  <data name="MSG_ULTIMATE_FILE_EXISTS" xml:space="preserve">
+    <value>Ultimate filename already exists ({0})</value>
+  </data>
+  <data name="TXT_AND_MORE" xml:space="preserve">
+    <value>and More</value>
+  </data>
+  <data name="TXT_ANSI" xml:space="preserve">
+    <value>ANSI</value>
+  </data>
+  <data name="TXT_BATCH_CLASS" xml:space="preserve">
+    <value>Batch class:</value>
+  </data>
+  <data name="TXT_CUSTOM_FOLDER_TITLE_DEFAULT_STORAGE" xml:space="preserve">
+    <value>Default Storage</value>
+  </data>
+  <data name="TXT_CUSTOM_FOLDER_TITLE_IMAGE_STORAGE" xml:space="preserve">
+    <value>Image Ouput</value>
+  </data>
+  <data name="TXT_CUSTOM_FOLDER_TITLE_INDEX_STORAGE" xml:space="preserve">
+    <value>Index Storage</value>
+  </data>
+  <data name="TXT_CUSTOM_FOLDER_TITLE_OCR_STORAGE" xml:space="preserve">
+    <value>OCR Output</value>
+  </data>
+  <data name="TXT_CUSTOM_FOLDER_TITLE_PDF_STORAGE" xml:space="preserve">
+    <value>PDF Output</value>
+  </data>
+  <data name="TXT_DATA_VERIFICATION_FAILED" xml:space="preserve">
+    <value>Data Verification Failed: </value>
+  </data>
+  <data name="TXT_DATA_VERIFY_INFOMATION" xml:space="preserve">
+    <value>Data Verification Information: </value>
+  </data>
+  <data name="TXT_DOCUMENT_CLASS" xml:space="preserve">
+    <value>Document class:</value>
+  </data>
+  <data name="TXT_NAME" xml:space="preserve">
+    <value>&amp;Name:</value>
+  </data>
+  <data name="TXT_RELEASE_ERROR" xml:space="preserve">
+    <value>Text Export Connector Error</value>
+  </data>
+  <data name="TXT_RELEASE_SETUP_ERROR" xml:space="preserve">
+    <value>Text Export Connector Setup Error</value>
+  </data>
+  <data name="TXT_SAVE_SETTING" xml:space="preserve">
+    <value>Save Settings</value>
+  </data>
+  <data name="TXT_SEQUENCE" xml:space="preserve">
+    <value>Sequence</value>
+  </data>
+  <data name="TXT_SHORT_PRODUCT_NAME" xml:space="preserve">
+    <value>Text Export Connector</value>
+  </data>
+  <data name="TXT_UTF16" xml:space="preserve">
+    <value>UTF16</value>
+  </data>
+  <data name="TXT_UTF8" xml:space="preserve">
+    <value>UTF8</value>
+  </data>
+  <data name="TXT_VALUE" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="ERR_FOLDER_PATH_MAX_LENGTH" xml:space="preserve">
+    <value>A folder path must have a length less than 254 characters.</value>
+  </data>
+  <data name="MSG_DEFAULT_STORAGE_FOLDER_REQUIRED" xml:space="preserve">
+    <value>No default storage folder was specified</value>
+  </data>
+  <data name="MSG_IMAGE_STORAGE_FOFLDER_REQUIRED" xml:space="preserve">
+    <value>No image storage folder was specified</value>
+  </data>
+  <data name="MSG_INDEX_STORAGE_FOLDER_REQUIRED" xml:space="preserve">
+    <value>No index storage folder was specified</value>
+  </data>
+  <data name="MSG_OCR_STORAGE_FOFLDER_REQUIRED" xml:space="preserve">
+    <value>No OCR storage folder was specified</value>
+  </data>
+  <data name="MSG_PDF_STORAGE_FOFLDER_REQUIRED" xml:space="preserve">
+    <value>No PDF storage folder was specified</value>
+  </data>
+  <data name="ERR_FOLDER_PATH_CONTAINS_SPECIAL_CHARS" xml:space="preserve">
+    <value>A folder path cannot contain any of following characters: /  * ? " &lt; &gt; |</value>
+  </data>
+  <data name="TXT_LocalizedValueTrue" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="TXT_EXPORT_FOLDER" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="TXT_MACRO_BATCHCLASSNAME" xml:space="preserve">
+    <value>Batch Class Name</value>
+  </data>
+  <data name="TXT_MACRO_DOCCLASSNAME" xml:space="preserve">
+    <value>Document Class Name</value>
+  </data>
+  <data name="TXT_MACRO_DOCID" xml:space="preserve">
+    <value>Document ID</value>
+  </data>
+</root>

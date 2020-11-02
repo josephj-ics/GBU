@@ -1,0 +1,2133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="lblEncoding.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblEncoding.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblEncoding.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEncoding.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblEncoding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="lblEncoding.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblEncoding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="lblEncoding.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblEncoding.Text" xml:space="preserve">
+    <value>&amp;Encoding:</value>
+  </data>
+  <data name="&gt;&gt;lblEncoding.Name" xml:space="preserve">
+    <value>lblEncoding</value>
+  </data>
+  <data name="&gt;&gt;lblEncoding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEncoding.Parent" xml:space="preserve">
+    <value>tlpEncoding</value>
+  </data>
+  <data name="&gt;&gt;lblEncoding.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="pnlAdvance.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="tlpExportImageAs.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cboImageType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="cboImageType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 6</value>
+  </data>
+  <data name="cboImageType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 21</value>
+  </data>
+  <data name="cboImageType.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboImageType.Name" xml:space="preserve">
+    <value>cboImageType</value>
+  </data>
+  <data name="&gt;&gt;cboImageType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboImageType.Parent" xml:space="preserve">
+    <value>tlpExportImageAs</value>
+  </data>
+  <data name="&gt;&gt;cboImageType.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblReleaseImageAs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblReleaseImageAs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblReleaseImageAs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblReleaseImageAs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 10</value>
+  </data>
+  <data name="lblReleaseImageAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="lblReleaseImageAs.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblReleaseImageAs.Text" xml:space="preserve">
+    <value>E&amp;xport images as</value>
+  </data>
+  <data name="&gt;&gt;lblReleaseImageAs.Name" xml:space="preserve">
+    <value>lblReleaseImageAs</value>
+  </data>
+  <data name="&gt;&gt;lblReleaseImageAs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReleaseImageAs.Parent" xml:space="preserve">
+    <value>tlpExportImageAs</value>
+  </data>
+  <data name="&gt;&gt;lblReleaseImageAs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpExportImageAs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 264</value>
+  </data>
+  <data name="tlpExportImageAs.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpExportImageAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>502, 33</value>
+  </data>
+  <data name="tlpExportImageAs.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tlpExportImageAs.Name" xml:space="preserve">
+    <value>tlpExportImageAs</value>
+  </data>
+  <data name="&gt;&gt;tlpExportImageAs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpExportImageAs.Parent" xml:space="preserve">
+    <value>pnlAdvance</value>
+  </data>
+  <data name="&gt;&gt;tlpExportImageAs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpExportImageAs.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cboImageType" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblReleaseImageAs" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="optOcrCustomPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optOcrCustomPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 5</value>
+  </data>
+  <data name="optOcrCustomPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 33</value>
+  </data>
+  <data name="optOcrCustomPath.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="optOcrCustomPath.Text" xml:space="preserve">
+    <value>Custom storage &amp;folder</value>
+  </data>
+  <data name="&gt;&gt;optOcrCustomPath.Name" xml:space="preserve">
+    <value>optOcrCustomPath</value>
+  </data>
+  <data name="&gt;&gt;optOcrCustomPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optOcrCustomPath.Parent" xml:space="preserve">
+    <value>pnlOCROutput</value>
+  </data>
+  <data name="&gt;&gt;optOcrCustomPath.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optOcrDefaultPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optOcrDefaultPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 5</value>
+  </data>
+  <data name="optOcrDefaultPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 33</value>
+  </data>
+  <data name="optOcrDefaultPath.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="optOcrDefaultPath.Text" xml:space="preserve">
+    <value>&amp;Default storage folder</value>
+  </data>
+  <data name="&gt;&gt;optOcrDefaultPath.Name" xml:space="preserve">
+    <value>optOcrDefaultPath</value>
+  </data>
+  <data name="&gt;&gt;optOcrDefaultPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optOcrDefaultPath.Parent" xml:space="preserve">
+    <value>pnlOCROutput</value>
+  </data>
+  <data name="&gt;&gt;optOcrDefaultPath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdOcrCustom.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdOcrCustom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdOcrCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 40</value>
+  </data>
+  <data name="cmdOcrCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 23</value>
+  </data>
+  <data name="cmdOcrCustom.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdOcrCustom.Text" xml:space="preserve">
+    <value>&amp;Custom...</value>
+  </data>
+  <data name="&gt;&gt;cmdOcrCustom.Name" xml:space="preserve">
+    <value>cmdOcrCustom</value>
+  </data>
+  <data name="&gt;&gt;cmdOcrCustom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdOcrCustom.Parent" xml:space="preserve">
+    <value>pnlOCROutput</value>
+  </data>
+  <data name="&gt;&gt;cmdOcrCustom.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtOcrCustomPath.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtOcrCustomPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 42</value>
+  </data>
+  <data name="txtOcrCustomPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 20</value>
+  </data>
+  <data name="txtOcrCustomPath.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtOcrCustomPath.Name" xml:space="preserve">
+    <value>txtOcrCustomPath</value>
+  </data>
+  <data name="&gt;&gt;txtOcrCustomPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtOcrCustomPath.Parent" xml:space="preserve">
+    <value>pnlOCROutput</value>
+  </data>
+  <data name="&gt;&gt;txtOcrCustomPath.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkOcrOutput.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkOcrOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 5</value>
+  </data>
+  <data name="chkOcrOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 33</value>
+  </data>
+  <data name="chkOcrOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkOcrOutput.Text" xml:space="preserve">
+    <value>&amp;OCR output</value>
+  </data>
+  <data name="&gt;&gt;chkOcrOutput.Name" xml:space="preserve">
+    <value>chkOcrOutput</value>
+  </data>
+  <data name="&gt;&gt;chkOcrOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkOcrOutput.Parent" xml:space="preserve">
+    <value>pnlOCROutput</value>
+  </data>
+  <data name="&gt;&gt;chkOcrOutput.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlOCROutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="pnlOCROutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>602, 69</value>
+  </data>
+  <data name="pnlOCROutput.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlOCROutput.Name" xml:space="preserve">
+    <value>pnlOCROutput</value>
+  </data>
+  <data name="&gt;&gt;pnlOCROutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlOCROutput.Parent" xml:space="preserve">
+    <value>pnlAdvance</value>
+  </data>
+  <data name="&gt;&gt;pnlOCROutput.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdImgCustom.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdImgCustom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdImgCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 40</value>
+  </data>
+  <data name="cmdImgCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 23</value>
+  </data>
+  <data name="cmdImgCustom.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdImgCustom.Text" xml:space="preserve">
+    <value>Cus&amp;tom...</value>
+  </data>
+  <data name="&gt;&gt;cmdImgCustom.Name" xml:space="preserve">
+    <value>cmdImgCustom</value>
+  </data>
+  <data name="&gt;&gt;cmdImgCustom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdImgCustom.Parent" xml:space="preserve">
+    <value>pnlImageOutput</value>
+  </data>
+  <data name="&gt;&gt;cmdImgCustom.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtImgCustomPath.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtImgCustomPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 42</value>
+  </data>
+  <data name="txtImgCustomPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 20</value>
+  </data>
+  <data name="txtImgCustomPath.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtImgCustomPath.Name" xml:space="preserve">
+    <value>txtImgCustomPath</value>
+  </data>
+  <data name="&gt;&gt;txtImgCustomPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtImgCustomPath.Parent" xml:space="preserve">
+    <value>pnlImageOutput</value>
+  </data>
+  <data name="&gt;&gt;txtImgCustomPath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkImgOutput.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkImgOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 5</value>
+  </data>
+  <data name="chkImgOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 33</value>
+  </data>
+  <data name="chkImgOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkImgOutput.Text" xml:space="preserve">
+    <value>&amp;Image output</value>
+  </data>
+  <data name="&gt;&gt;chkImgOutput.Name" xml:space="preserve">
+    <value>chkImgOutput</value>
+  </data>
+  <data name="&gt;&gt;chkImgOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkImgOutput.Parent" xml:space="preserve">
+    <value>pnlImageOutput</value>
+  </data>
+  <data name="&gt;&gt;chkImgOutput.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="optImgCustomPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optImgCustomPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 5</value>
+  </data>
+  <data name="optImgCustomPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 33</value>
+  </data>
+  <data name="optImgCustomPath.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="optImgCustomPath.Text" xml:space="preserve">
+    <value>Custom stora&amp;ge folder</value>
+  </data>
+  <data name="&gt;&gt;optImgCustomPath.Name" xml:space="preserve">
+    <value>optImgCustomPath</value>
+  </data>
+  <data name="&gt;&gt;optImgCustomPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optImgCustomPath.Parent" xml:space="preserve">
+    <value>pnlImageOutput</value>
+  </data>
+  <data name="&gt;&gt;optImgCustomPath.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="optImgDefaultPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optImgDefaultPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 5</value>
+  </data>
+  <data name="optImgDefaultPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 33</value>
+  </data>
+  <data name="optImgDefaultPath.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="optImgDefaultPath.Text" xml:space="preserve">
+    <value>Default &amp;storage folder</value>
+  </data>
+  <data name="&gt;&gt;optImgDefaultPath.Name" xml:space="preserve">
+    <value>optImgDefaultPath</value>
+  </data>
+  <data name="&gt;&gt;optImgDefaultPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optImgDefaultPath.Parent" xml:space="preserve">
+    <value>pnlImageOutput</value>
+  </data>
+  <data name="&gt;&gt;optImgDefaultPath.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlImageOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 145</value>
+  </data>
+  <data name="pnlImageOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>602, 69</value>
+  </data>
+  <data name="pnlImageOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlImageOutput.Name" xml:space="preserve">
+    <value>pnlImageOutput</value>
+  </data>
+  <data name="&gt;&gt;pnlImageOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlImageOutput.Parent" xml:space="preserve">
+    <value>pnlAdvance</value>
+  </data>
+  <data name="&gt;&gt;pnlImageOutput.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtPdfCustomPath.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPdfCustomPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 42</value>
+  </data>
+  <data name="txtPdfCustomPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 20</value>
+  </data>
+  <data name="txtPdfCustomPath.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtPdfCustomPath.Name" xml:space="preserve">
+    <value>txtPdfCustomPath</value>
+  </data>
+  <data name="&gt;&gt;txtPdfCustomPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPdfCustomPath.Parent" xml:space="preserve">
+    <value>pnlPDFOutput</value>
+  </data>
+  <data name="&gt;&gt;txtPdfCustomPath.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdPdfCustom.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdPdfCustom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdPdfCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 40</value>
+  </data>
+  <data name="cmdPdfCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 23</value>
+  </data>
+  <data name="cmdPdfCustom.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdPdfCustom.Text" xml:space="preserve">
+    <value>C&amp;ustom...</value>
+  </data>
+  <data name="&gt;&gt;cmdPdfCustom.Name" xml:space="preserve">
+    <value>cmdPdfCustom</value>
+  </data>
+  <data name="&gt;&gt;cmdPdfCustom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdPdfCustom.Parent" xml:space="preserve">
+    <value>pnlPDFOutput</value>
+  </data>
+  <data name="&gt;&gt;cmdPdfCustom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optPdfDefaultPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optPdfDefaultPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 5</value>
+  </data>
+  <data name="optPdfDefaultPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 33</value>
+  </data>
+  <data name="optPdfDefaultPath.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="optPdfDefaultPath.Text" xml:space="preserve">
+    <value>D&amp;efault storage folder</value>
+  </data>
+  <data name="&gt;&gt;optPdfDefaultPath.Name" xml:space="preserve">
+    <value>optPdfDefaultPath</value>
+  </data>
+  <data name="&gt;&gt;optPdfDefaultPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optPdfDefaultPath.Parent" xml:space="preserve">
+    <value>pnlPDFOutput</value>
+  </data>
+  <data name="&gt;&gt;optPdfDefaultPath.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="optPdfCustomPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optPdfCustomPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 5</value>
+  </data>
+  <data name="optPdfCustomPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 33</value>
+  </data>
+  <data name="optPdfCustomPath.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="optPdfCustomPath.Text" xml:space="preserve">
+    <value>Custom storage fo&amp;lder</value>
+  </data>
+  <data name="&gt;&gt;optPdfCustomPath.Name" xml:space="preserve">
+    <value>optPdfCustomPath</value>
+  </data>
+  <data name="&gt;&gt;optPdfCustomPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optPdfCustomPath.Parent" xml:space="preserve">
+    <value>pnlPDFOutput</value>
+  </data>
+  <data name="&gt;&gt;optPdfCustomPath.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkPdfOutput.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkPdfOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 5</value>
+  </data>
+  <data name="chkPdfOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 33</value>
+  </data>
+  <data name="chkPdfOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkPdfOutput.Text" xml:space="preserve">
+    <value>&amp;PDF output</value>
+  </data>
+  <data name="&gt;&gt;chkPdfOutput.Name" xml:space="preserve">
+    <value>chkPdfOutput</value>
+  </data>
+  <data name="&gt;&gt;chkPdfOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPdfOutput.Parent" xml:space="preserve">
+    <value>pnlPDFOutput</value>
+  </data>
+  <data name="&gt;&gt;chkPdfOutput.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlPDFOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 74</value>
+  </data>
+  <data name="pnlPDFOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>602, 69</value>
+  </data>
+  <data name="pnlPDFOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlPDFOutput.Name" xml:space="preserve">
+    <value>pnlPDFOutput</value>
+  </data>
+  <data name="&gt;&gt;pnlPDFOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlPDFOutput.Parent" xml:space="preserve">
+    <value>pnlAdvance</value>
+  </data>
+  <data name="&gt;&gt;pnlPDFOutput.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkSkipFirstPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkSkipFirstPage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkSkipFirstPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 243</value>
+  </data>
+  <data name="chkSkipFirstPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 17</value>
+  </data>
+  <data name="chkSkipFirstPage.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkSkipFirstPage.Text" xml:space="preserve">
+    <value>S&amp;kip first page of each document</value>
+  </data>
+  <data name="&gt;&gt;chkSkipFirstPage.Name" xml:space="preserve">
+    <value>chkSkipFirstPage</value>
+  </data>
+  <data name="&gt;&gt;chkSkipFirstPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSkipFirstPage.Parent" xml:space="preserve">
+    <value>pnlAdvance</value>
+  </data>
+  <data name="&gt;&gt;chkSkipFirstPage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkSuppressIfPdfDetected.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkSuppressIfPdfDetected.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkSuppressIfPdfDetected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 220</value>
+  </data>
+  <data name="chkSuppressIfPdfDetected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 17</value>
+  </data>
+  <data name="chkSuppressIfPdfDetected.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkSuppressIfPdfDetected.Text" xml:space="preserve">
+    <value>Suppress i&amp;mage output if PDF is detected</value>
+  </data>
+  <data name="&gt;&gt;chkSuppressIfPdfDetected.Name" xml:space="preserve">
+    <value>chkSuppressIfPdfDetected</value>
+  </data>
+  <data name="&gt;&gt;chkSuppressIfPdfDetected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSuppressIfPdfDetected.Parent" xml:space="preserve">
+    <value>pnlAdvance</value>
+  </data>
+  <data name="&gt;&gt;chkSuppressIfPdfDetected.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pnlAdvance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 0</value>
+  </data>
+  <data name="pnlAdvance.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="pnlAdvance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 331</value>
+  </data>
+  <data name="pnlAdvance.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlAdvance.Name" xml:space="preserve">
+    <value>pnlAdvance</value>
+  </data>
+  <data name="&gt;&gt;pnlAdvance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlAdvance.Parent" xml:space="preserve">
+    <value>tpgAdvance</value>
+  </data>
+  <data name="&gt;&gt;pnlAdvance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="pnlDefaultStorage.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="ctlCustomFileNameInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 251</value>
+  </data>
+  <data name="ctlCustomFileNameInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 20</value>
+  </data>
+  <data name="ctlCustomFileNameInput.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ctlCustomFileNameInput.Name" xml:space="preserve">
+    <value>ctlCustomFileNameInput</value>
+  </data>
+  <data name="&gt;&gt;ctlCustomFileNameInput.Type" xml:space="preserve">
+    <value>Kofax.Connector.Common.CustomFileNameInput, Kofax.Connector.Common, Version=1.0.25.0, Culture=neutral, PublicKeyToken=4f437962462da0e9</value>
+  </data>
+  <data name="&gt;&gt;ctlCustomFileNameInput.Parent" xml:space="preserve">
+    <value>pnlDefaultStorage</value>
+  </data>
+  <data name="&gt;&gt;ctlCustomFileNameInput.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblFileName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFileName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 228</value>
+  </data>
+  <data name="lblFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lblFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblFileName.Text" xml:space="preserve">
+    <value>&amp;File Name</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Name" xml:space="preserve">
+    <value>lblFileName</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Parent" xml:space="preserve">
+    <value>pnlDefaultStorage</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblDefautStorageFolder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDefautStorageFolder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDefautStorageFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 9</value>
+  </data>
+  <data name="lblDefautStorageFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="lblDefautStorageFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblDefautStorageFolder.Text" xml:space="preserve">
+    <value>&amp;Default Storage Folder</value>
+  </data>
+  <data name="&gt;&gt;lblDefautStorageFolder.Name" xml:space="preserve">
+    <value>lblDefautStorageFolder</value>
+  </data>
+  <data name="&gt;&gt;lblDefautStorageFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDefautStorageFolder.Parent" xml:space="preserve">
+    <value>pnlDefaultStorage</value>
+  </data>
+  <data name="&gt;&gt;lblDefautStorageFolder.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdCustom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 29</value>
+  </data>
+  <data name="cmdCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="cmdCustom.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdCustom.Text" xml:space="preserve">
+    <value>&amp;Custom...</value>
+  </data>
+  <data name="&gt;&gt;cmdCustom.Name" xml:space="preserve">
+    <value>cmdCustom</value>
+  </data>
+  <data name="&gt;&gt;cmdCustom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdCustom.Parent" xml:space="preserve">
+    <value>pnlDefaultStorage</value>
+  </data>
+  <data name="&gt;&gt;cmdCustom.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtDefaultStorageFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 31</value>
+  </data>
+  <data name="txtDefaultStorageFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 20</value>
+  </data>
+  <data name="txtDefaultStorageFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtDefaultStorageFolder.Name" xml:space="preserve">
+    <value>txtDefaultStorageFolder</value>
+  </data>
+  <data name="&gt;&gt;txtDefaultStorageFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDefaultStorageFolder.Parent" xml:space="preserve">
+    <value>pnlDefaultStorage</value>
+  </data>
+  <data name="&gt;&gt;txtDefaultStorageFolder.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="optCustomFileName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optCustomFileName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optCustomFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 126</value>
+  </data>
+  <data name="optCustomFileName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="optCustomFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="optCustomFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="optCustomFileName.Text" xml:space="preserve">
+    <value>C&amp;ustom file name</value>
+  </data>
+  <data name="&gt;&gt;optCustomFileName.Name" xml:space="preserve">
+    <value>optCustomFileName</value>
+  </data>
+  <data name="&gt;&gt;optCustomFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optCustomFileName.Parent" xml:space="preserve">
+    <value>fraFileNaming</value>
+  </data>
+  <data name="&gt;&gt;optCustomFileName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkLeadZeros.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkLeadZeros.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 92</value>
+  </data>
+  <data name="chkLeadZeros.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chkLeadZeros.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 32</value>
+  </data>
+  <data name="chkLeadZeros.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkLeadZeros.Text" xml:space="preserve">
+    <value>Use &amp;leading zeros in decimal file name</value>
+  </data>
+  <data name="&gt;&gt;chkLeadZeros.Name" xml:space="preserve">
+    <value>chkLeadZeros</value>
+  </data>
+  <data name="&gt;&gt;chkLeadZeros.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkLeadZeros.Parent" xml:space="preserve">
+    <value>fraFileNaming</value>
+  </data>
+  <data name="&gt;&gt;chkLeadZeros.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optDecimalFilename.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optDecimalFilename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 57</value>
+  </data>
+  <data name="optDecimalFilename.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="optDecimalFilename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 34</value>
+  </data>
+  <data name="optDecimalFilename.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="optDecimalFilename.Text" xml:space="preserve">
+    <value>D&amp;ecimal based file name (integer)</value>
+  </data>
+  <data name="&gt;&gt;optDecimalFilename.Name" xml:space="preserve">
+    <value>optDecimalFilename</value>
+  </data>
+  <data name="&gt;&gt;optDecimalFilename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optDecimalFilename.Parent" xml:space="preserve">
+    <value>fraFileNaming</value>
+  </data>
+  <data name="&gt;&gt;optDecimalFilename.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="optStandardNaming.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optStandardNaming.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 22</value>
+  </data>
+  <data name="optStandardNaming.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="optStandardNaming.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 34</value>
+  </data>
+  <data name="optStandardNaming.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="optStandardNaming.Text" xml:space="preserve">
+    <value>&amp;Standard file name (hexadecimal number)</value>
+  </data>
+  <data name="&gt;&gt;optStandardNaming.Name" xml:space="preserve">
+    <value>optStandardNaming</value>
+  </data>
+  <data name="&gt;&gt;optStandardNaming.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optStandardNaming.Parent" xml:space="preserve">
+    <value>fraFileNaming</value>
+  </data>
+  <data name="&gt;&gt;optStandardNaming.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="fraFileNaming.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 62</value>
+  </data>
+  <data name="fraFileNaming.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="fraFileNaming.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 152</value>
+  </data>
+  <data name="fraFileNaming.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="fraFileNaming.Text" xml:space="preserve">
+    <value>Custom File Name</value>
+  </data>
+  <data name="&gt;&gt;fraFileNaming.Name" xml:space="preserve">
+    <value>fraFileNaming</value>
+  </data>
+  <data name="&gt;&gt;fraFileNaming.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraFileNaming.Parent" xml:space="preserve">
+    <value>pnlDefaultStorage</value>
+  </data>
+  <data name="&gt;&gt;fraFileNaming.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="optRenameIfDup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optRenameIfDup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 66</value>
+  </data>
+  <data name="optRenameIfDup.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="optRenameIfDup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 34</value>
+  </data>
+  <data name="optRenameIfDup.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="optRenameIfDup.Text" xml:space="preserve">
+    <value>Rena&amp;me if duplicate is found</value>
+  </data>
+  <data name="&gt;&gt;optRenameIfDup.Name" xml:space="preserve">
+    <value>optRenameIfDup</value>
+  </data>
+  <data name="&gt;&gt;optRenameIfDup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optRenameIfDup.Parent" xml:space="preserve">
+    <value>fraPlusHandling</value>
+  </data>
+  <data name="&gt;&gt;optRenameIfDup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optReplaceIfDup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optReplaceIfDup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 25</value>
+  </data>
+  <data name="optReplaceIfDup.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="optReplaceIfDup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 34</value>
+  </data>
+  <data name="optReplaceIfDup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="optReplaceIfDup.Text" xml:space="preserve">
+    <value>&amp;Replace if duplicate is found</value>
+  </data>
+  <data name="&gt;&gt;optReplaceIfDup.Name" xml:space="preserve">
+    <value>optReplaceIfDup</value>
+  </data>
+  <data name="&gt;&gt;optReplaceIfDup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optReplaceIfDup.Parent" xml:space="preserve">
+    <value>fraPlusHandling</value>
+  </data>
+  <data name="&gt;&gt;optReplaceIfDup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optErrorIfDup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optErrorIfDup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 107</value>
+  </data>
+  <data name="optErrorIfDup.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="optErrorIfDup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 34</value>
+  </data>
+  <data name="optErrorIfDup.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="optErrorIfDup.Text" xml:space="preserve">
+    <value>Err&amp;or if duplicate is found</value>
+  </data>
+  <data name="&gt;&gt;optErrorIfDup.Name" xml:space="preserve">
+    <value>optErrorIfDup</value>
+  </data>
+  <data name="&gt;&gt;optErrorIfDup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optErrorIfDup.Parent" xml:space="preserve">
+    <value>fraPlusHandling</value>
+  </data>
+  <data name="&gt;&gt;optErrorIfDup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="fraPlusHandling.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 62</value>
+  </data>
+  <data name="fraPlusHandling.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="fraPlusHandling.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 152</value>
+  </data>
+  <data name="fraPlusHandling.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="fraPlusHandling.Text" xml:space="preserve">
+    <value>Duplicate Name Handling</value>
+  </data>
+  <data name="&gt;&gt;fraPlusHandling.Name" xml:space="preserve">
+    <value>fraPlusHandling</value>
+  </data>
+  <data name="&gt;&gt;fraPlusHandling.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraPlusHandling.Parent" xml:space="preserve">
+    <value>pnlDefaultStorage</value>
+  </data>
+  <data name="&gt;&gt;fraPlusHandling.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pnlDefaultStorage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="pnlDefaultStorage.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="pnlDefaultStorage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 343</value>
+  </data>
+  <data name="pnlDefaultStorage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlDefaultStorage.Name" xml:space="preserve">
+    <value>pnlDefaultStorage</value>
+  </data>
+  <data name="&gt;&gt;pnlDefaultStorage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlDefaultStorage.Parent" xml:space="preserve">
+    <value>tpgDefaultStorage</value>
+  </data>
+  <data name="&gt;&gt;pnlDefaultStorage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="lblName.GenerateMember" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="lblName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 9</value>
+  </data>
+  <data name="lblName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>&amp;Name:</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name" xml:space="preserve">
+    <value>lblName</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
+    <value>tlpExportName</value>
+  </data>
+  <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdDeleteAllIndex.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdDeleteAllIndex.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmdDeleteAllIndex.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdDeleteAllIndex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 74</value>
+  </data>
+  <data name="cmdDeleteAllIndex.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdDeleteAllIndex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 23</value>
+  </data>
+  <data name="cmdDeleteAllIndex.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdDeleteAllIndex.Text" xml:space="preserve">
+    <value>Delete A&amp;ll</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteAllIndex.Name" xml:space="preserve">
+    <value>cmdDeleteAllIndex</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteAllIndex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteAllIndex.Parent" xml:space="preserve">
+    <value>fraIndexVals</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteAllIndex.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ctlIndexValueUpDown.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ctlIndexValueUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 103</value>
+  </data>
+  <data name="ctlIndexValueUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 37</value>
+  </data>
+  <data name="ctlIndexValueUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ctlIndexValueUpDown.Name" xml:space="preserve">
+    <value>ctlIndexValueUpDown</value>
+  </data>
+  <data name="&gt;&gt;ctlIndexValueUpDown.Type" xml:space="preserve">
+    <value>Kofax.Connector.Text.UpDownControl, Kofax.TextRelease, Version=1.0.25.0, Culture=neutral, PublicKeyToken=3d2d2b2a4d485034</value>
+  </data>
+  <data name="&gt;&gt;ctlIndexValueUpDown.Parent" xml:space="preserve">
+    <value>fraIndexVals</value>
+  </data>
+  <data name="&gt;&gt;ctlIndexValueUpDown.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grdIndexValuesData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 18</value>
+  </data>
+  <data name="grdIndexValuesData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 189</value>
+  </data>
+  <data name="grdIndexValuesData.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grdIndexValuesData.Name" xml:space="preserve">
+    <value>grdIndexValuesData</value>
+  </data>
+  <data name="&gt;&gt;grdIndexValuesData.Type" xml:space="preserve">
+    <value>Kofax.Connector.Text.IndexValueDataGridView, Kofax.TextRelease, Version=1.0.25.0, Culture=neutral, PublicKeyToken=3d2d2b2a4d485034</value>
+  </data>
+  <data name="&gt;&gt;grdIndexValuesData.Parent" xml:space="preserve">
+    <value>fraIndexVals</value>
+  </data>
+  <data name="&gt;&gt;grdIndexValuesData.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdAddIndex.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmdAddIndex.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdAddIndex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 18</value>
+  </data>
+  <data name="cmdAddIndex.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdAddIndex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 23</value>
+  </data>
+  <data name="cmdAddIndex.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdAddIndex.Text" xml:space="preserve">
+    <value>A&amp;dd</value>
+  </data>
+  <data name="&gt;&gt;cmdAddIndex.Name" xml:space="preserve">
+    <value>cmdAddIndex</value>
+  </data>
+  <data name="&gt;&gt;cmdAddIndex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdAddIndex.Parent" xml:space="preserve">
+    <value>fraIndexVals</value>
+  </data>
+  <data name="&gt;&gt;cmdAddIndex.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmdDeleteIndex.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdDeleteIndex.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmdDeleteIndex.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdDeleteIndex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 46</value>
+  </data>
+  <data name="cmdDeleteIndex.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdDeleteIndex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 23</value>
+  </data>
+  <data name="cmdDeleteIndex.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdDeleteIndex.Text" xml:space="preserve">
+    <value>Dele&amp;te</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteIndex.Name" xml:space="preserve">
+    <value>cmdDeleteIndex</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteIndex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteIndex.Parent" xml:space="preserve">
+    <value>fraIndexVals</value>
+  </data>
+  <data name="&gt;&gt;cmdDeleteIndex.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblMove.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMove.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblMove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 115</value>
+  </data>
+  <data name="lblMove.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblMove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="lblMove.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblMove.Text" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="&gt;&gt;lblMove.Name" xml:space="preserve">
+    <value>lblMove</value>
+  </data>
+  <data name="&gt;&gt;lblMove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMove.Parent" xml:space="preserve">
+    <value>fraIndexVals</value>
+  </data>
+  <data name="&gt;&gt;lblMove.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="fraIndexVals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 149</value>
+  </data>
+  <data name="fraIndexVals.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="fraIndexVals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>599, 209</value>
+  </data>
+  <data name="fraIndexVals.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="fraIndexVals.Text" xml:space="preserve">
+    <value>&amp;Values</value>
+  </data>
+  <data name="&gt;&gt;fraIndexVals.Name" xml:space="preserve">
+    <value>fraIndexVals</value>
+  </data>
+  <data name="&gt;&gt;fraIndexVals.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraIndexVals.Parent" xml:space="preserve">
+    <value>pnlIndexStorage</value>
+  </data>
+  <data name="&gt;&gt;fraIndexVals.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cboEncoding.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="cboEncoding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 4</value>
+  </data>
+  <data name="cboEncoding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 21</value>
+  </data>
+  <data name="cboEncoding.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboEncoding.Name" xml:space="preserve">
+    <value>cboEncoding</value>
+  </data>
+  <data name="&gt;&gt;cboEncoding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboEncoding.Parent" xml:space="preserve">
+    <value>tlpEncoding</value>
+  </data>
+  <data name="&gt;&gt;cboEncoding.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpEncoding.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tlpEncoding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 114</value>
+  </data>
+  <data name="tlpEncoding.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpEncoding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 29</value>
+  </data>
+  <data name="tlpEncoding.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tlpEncoding.Name" xml:space="preserve">
+    <value>tlpEncoding</value>
+  </data>
+  <data name="&gt;&gt;tlpEncoding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpEncoding.Parent" xml:space="preserve">
+    <value>pnlIndexStorage</value>
+  </data>
+  <data name="&gt;&gt;tlpEncoding.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpEncoding.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cboEncoding" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblEncoding" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tlpIndexOutput.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdCustomFileOutputBrowse.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="cmdCustomFileOutputBrowse.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdCustomFileOutputBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdCustomFileOutputBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 3</value>
+  </data>
+  <data name="cmdCustomFileOutputBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 23</value>
+  </data>
+  <data name="cmdCustomFileOutputBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdCustomFileOutputBrowse.Text" xml:space="preserve">
+    <value>&amp;Custom...</value>
+  </data>
+  <data name="&gt;&gt;cmdCustomFileOutputBrowse.Name" xml:space="preserve">
+    <value>cmdCustomFileOutputBrowse</value>
+  </data>
+  <data name="&gt;&gt;cmdCustomFileOutputBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdCustomFileOutputBrowse.Parent" xml:space="preserve">
+    <value>tlpIndexOutput</value>
+  </data>
+  <data name="&gt;&gt;cmdCustomFileOutputBrowse.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtCustomIndexFileName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="txtCustomIndexFileName.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtCustomIndexFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 32</value>
+  </data>
+  <data name="txtCustomIndexFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>353, 20</value>
+  </data>
+  <data name="txtCustomIndexFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtCustomIndexFileName.Name" xml:space="preserve">
+    <value>txtCustomIndexFileName</value>
+  </data>
+  <data name="&gt;&gt;txtCustomIndexFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCustomIndexFileName.Parent" xml:space="preserve">
+    <value>tlpIndexOutput</value>
+  </data>
+  <data name="&gt;&gt;txtCustomIndexFileName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtCustomIndexFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="txtCustomIndexFolder.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtCustomIndexFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 4</value>
+  </data>
+  <data name="txtCustomIndexFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>353, 20</value>
+  </data>
+  <data name="txtCustomIndexFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtCustomIndexFolder.Name" xml:space="preserve">
+    <value>txtCustomIndexFolder</value>
+  </data>
+  <data name="&gt;&gt;txtCustomIndexFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCustomIndexFolder.Parent" xml:space="preserve">
+    <value>tlpIndexOutput</value>
+  </data>
+  <data name="&gt;&gt;txtCustomIndexFolder.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblStorageFileName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblStorageFileName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStorageFileName.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblStorageFileName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblStorageFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 35</value>
+  </data>
+  <data name="lblStorageFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="lblStorageFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblStorageFileName.Text" xml:space="preserve">
+    <value>&amp;File name:</value>
+  </data>
+  <data name="&gt;&gt;lblStorageFileName.Name" xml:space="preserve">
+    <value>lblStorageFileName</value>
+  </data>
+  <data name="&gt;&gt;lblStorageFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStorageFileName.Parent" xml:space="preserve">
+    <value>tlpIndexOutput</value>
+  </data>
+  <data name="&gt;&gt;lblStorageFileName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblStorageFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblStorageFolder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStorageFolder.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblStorageFolder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblStorageFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="lblStorageFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="lblStorageFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblStorageFolder.Text" xml:space="preserve">
+    <value>&amp;Storage folder:</value>
+  </data>
+  <data name="&gt;&gt;lblStorageFolder.Name" xml:space="preserve">
+    <value>lblStorageFolder</value>
+  </data>
+  <data name="&gt;&gt;lblStorageFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStorageFolder.Parent" xml:space="preserve">
+    <value>tlpIndexOutput</value>
+  </data>
+  <data name="&gt;&gt;lblStorageFolder.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tlpIndexOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 53</value>
+  </data>
+  <data name="tlpIndexOutput.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tlpIndexOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>586, 55</value>
+  </data>
+  <data name="tlpIndexOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tlpIndexOutput.Name" xml:space="preserve">
+    <value>tlpIndexOutput</value>
+  </data>
+  <data name="&gt;&gt;tlpIndexOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpIndexOutput.Parent" xml:space="preserve">
+    <value>pnlIndexStorage</value>
+  </data>
+  <data name="&gt;&gt;tlpIndexOutput.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpIndexOutput.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cmdCustomFileOutputBrowse" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="txtCustomIndexFileName" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtCustomIndexFolder" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblStorageFileName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblStorageFolder" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,71.25891,Percent,28.74109" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="chkCustomFileOutput.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCustomFileOutput.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkCustomFileOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 30</value>
+  </data>
+  <data name="chkCustomFileOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 17</value>
+  </data>
+  <data name="chkCustomFileOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkCustomFileOutput.Text" xml:space="preserve">
+    <value>O&amp;utput values to specific index file</value>
+  </data>
+  <data name="&gt;&gt;chkCustomFileOutput.Name" xml:space="preserve">
+    <value>chkCustomFileOutput</value>
+  </data>
+  <data name="&gt;&gt;chkCustomFileOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCustomFileOutput.Parent" xml:space="preserve">
+    <value>pnlIndexStorage</value>
+  </data>
+  <data name="&gt;&gt;chkCustomFileOutput.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkDefaultStorageOutput.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkDefaultStorageOutput.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkDefaultStorageOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="chkDefaultStorageOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 17</value>
+  </data>
+  <data name="chkDefaultStorageOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkDefaultStorageOutput.Text" xml:space="preserve">
+    <value>&amp;Output one index file per document to the default storage folder</value>
+  </data>
+  <data name="&gt;&gt;chkDefaultStorageOutput.Name" xml:space="preserve">
+    <value>chkDefaultStorageOutput</value>
+  </data>
+  <data name="&gt;&gt;chkDefaultStorageOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDefaultStorageOutput.Parent" xml:space="preserve">
+    <value>pnlIndexStorage</value>
+  </data>
+  <data name="&gt;&gt;chkDefaultStorageOutput.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlIndexStorage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="pnlIndexStorage.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="pnlIndexStorage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 375</value>
+  </data>
+  <data name="pnlIndexStorage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlIndexStorage.Name" xml:space="preserve">
+    <value>pnlIndexStorage</value>
+  </data>
+  <data name="&gt;&gt;pnlIndexStorage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlIndexStorage.Parent" xml:space="preserve">
+    <value>tpgIndexStorage</value>
+  </data>
+  <data name="&gt;&gt;pnlIndexStorage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpgIndexStorage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="tpgIndexStorage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>610, 367</value>
+  </data>
+  <data name="tpgIndexStorage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpgIndexStorage.Text" xml:space="preserve">
+    <value>Index Storage</value>
+  </data>
+  <data name="&gt;&gt;tpgIndexStorage.Name" xml:space="preserve">
+    <value>tpgIndexStorage</value>
+  </data>
+  <data name="&gt;&gt;tpgIndexStorage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpgIndexStorage.Parent" xml:space="preserve">
+    <value>tabText</value>
+  </data>
+  <data name="&gt;&gt;tpgIndexStorage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 6</value>
+  </data>
+  <data name="txtName.MaxLength" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="txtName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>568, 20</value>
+  </data>
+  <data name="txtName.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtName.Name" xml:space="preserve">
+    <value>txtName</value>
+  </data>
+  <data name="&gt;&gt;txtName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtName.Parent" xml:space="preserve">
+    <value>tlpExportName</value>
+  </data>
+  <data name="&gt;&gt;txtName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdHelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cmdHelp.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmdHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 450</value>
+  </data>
+  <data name="cmdHelp.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 23</value>
+  </data>
+  <data name="cmdHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="&gt;&gt;cmdHelp.Name" xml:space="preserve">
+    <value>cmdHelp</value>
+  </data>
+  <data name="&gt;&gt;cmdHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdHelp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdHelp.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tpgDefaultStorage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="tpgDefaultStorage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>610, 367</value>
+  </data>
+  <data name="tpgDefaultStorage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tpgDefaultStorage.Text" xml:space="preserve">
+    <value>Default Storage</value>
+  </data>
+  <data name="&gt;&gt;tpgDefaultStorage.Name" xml:space="preserve">
+    <value>tpgDefaultStorage</value>
+  </data>
+  <data name="&gt;&gt;tpgDefaultStorage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpgDefaultStorage.Parent" xml:space="preserve">
+    <value>tabText</value>
+  </data>
+  <data name="&gt;&gt;tpgDefaultStorage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpgAdvance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="tpgAdvance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>610, 367</value>
+  </data>
+  <data name="tpgAdvance.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tpgAdvance.Text" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="&gt;&gt;tpgAdvance.Name" xml:space="preserve">
+    <value>tpgAdvance</value>
+  </data>
+  <data name="&gt;&gt;tpgAdvance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpgAdvance.Parent" xml:space="preserve">
+    <value>tabText</value>
+  </data>
+  <data name="&gt;&gt;tpgAdvance.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabText.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="tabText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 44</value>
+  </data>
+  <data name="tabText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 395</value>
+  </data>
+  <data name="tabText.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabText.Name" xml:space="preserve">
+    <value>tabText</value>
+  </data>
+  <data name="&gt;&gt;tabText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabText.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cmdApply.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdApply.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmdApply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 450</value>
+  </data>
+  <data name="cmdApply.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 23</value>
+  </data>
+  <data name="cmdApply.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdApply.Text" xml:space="preserve">
+    <value>&amp;Apply</value>
+  </data>
+  <data name="&gt;&gt;cmdApply.Name" xml:space="preserve">
+    <value>cmdApply</value>
+  </data>
+  <data name="&gt;&gt;cmdApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdApply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdApply.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmdCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cmdCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmdCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 450</value>
+  </data>
+  <data name="cmdCancel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 23</value>
+  </data>
+  <data name="cmdCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.Name" xml:space="preserve">
+    <value>cmdCancel</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmdOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cmdOK.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cmdOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 450</value>
+  </data>
+  <data name="cmdOK.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 23</value>
+  </data>
+  <data name="cmdOK.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.Name" xml:space="preserve">
+    <value>cmdOK</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tlpExportName.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tlpExportName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 1</value>
+  </data>
+  <data name="tlpExportName.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpExportName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 32</value>
+  </data>
+  <data name="tlpExportName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tlpExportName.Name" xml:space="preserve">
+    <value>tlpExportName</value>
+  </data>
+  <data name="&gt;&gt;tlpExportName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpExportName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlpExportName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpExportName.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="txtName" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblName" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100" /&gt;&lt;Rows Styles="Absolute,32,Absolute,32,Absolute,32" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>244</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>642, 483</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Kofax Export Connector for Text Setup</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainSetupForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

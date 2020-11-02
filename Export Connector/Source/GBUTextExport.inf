@@ -1,0 +1,18 @@
+[Scripts]
+GBU Text Export
+
+[GBU Text Export]
+SetupModule=GBUTextExport.dll
+SetupProgID=TextRel.kfxreleasesetupscript
+SetupVersion=1.0.0
+ReleaseModule=GBUTextExport.dll
+ReleaseProgID=TextRel.kfxreleasescript
+ReleaseVersion=1.0.0
+SupportsNonImageFiles=True
+SupportsKofaxPDF=True
+RemainLoaded=True
+SupportsOriginalFileName=True
+DisplayName=GBU Text Export Connector
+
+
+
